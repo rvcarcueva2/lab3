@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Cel - UI / Ux Desinger</title>
-  <link rel="icon" href="favicon1.ico" type="image/x-icon">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="main.css">
-</head>
+
 <body>
     <img src="background1.png" style="background-size: cover; position: absolute; width: 100%; height: 100vh;">
     <img src="logo.png" alt="Logo" width="100px" style="position: relative; float: left; margin-left: 50px;" >
@@ -32,7 +24,8 @@
               <div class="icon"><ion-icon name="call-outline"></ion-icon> </div>
               <div class="text">Contacts</div>
           </a>
-     
+      
+    </li>
       
   </div>
   
@@ -129,6 +122,47 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+<script>
+   
+  function scrollToSection(sectionId) {
+      var section = document.getElementById(sectionId);
+      if (section) {
+          section.scrollIntoView({ behavior: 'smooth' });
+      }
+  }
+
+
+  document.querySelector('a[href="#section1"]').addEventListener('click', function() {
+      scrollToSection('section1');
+  });
+
+  document.querySelector('a[href="#section2"]').addEventListener('click', function() {
+      scrollToSection('section2');
+  });
+  document.querySelector('a[href="#section3"]').addEventListener('click', function() {
+      scrollToSection('section3');
+  });
+
+  function openLink1() {
+    window.open('https://www.facebook.com/reyceel16/', '_blank');
+  }
+  function openLink2() {
+    window.open('https://www.instagram.com/reyceelll/', '_blank');
+  }
+  function openLink3() {
+    window.open('https://github.com/rvcarcueva2/', '_blank');
+  }
 
 
   

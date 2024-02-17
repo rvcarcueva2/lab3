@@ -32,13 +32,7 @@
               <div class="icon"><ion-icon name="call-outline"></ion-icon> </div>
               <div class="text">Contacts</div>
           </a>
-      </li>
-      <li style="--bg: #C40BD5;" class="active">
-        <a href="#section4">
-            <div class="icon"><ion-icon name="code-outline"></ion-icon> </div>
-            <div class="text">Contacts</div>
-        </a>
-    </li>
+     
       
   </div>
   
@@ -131,6 +125,8 @@
     </div>
   
 </div>
+
+
 
 
 

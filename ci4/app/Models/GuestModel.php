@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class NewsModel extends Model
+class GuestsModel extends Model
 {
     protected $table = 'myguests';
 

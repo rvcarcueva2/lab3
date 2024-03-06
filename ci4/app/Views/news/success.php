@@ -1,1 +1,1 @@
-<p>News item created successfully.</p>
+<p>User profile created successfully.</p>
